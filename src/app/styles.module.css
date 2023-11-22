@@ -4,3 +4,78 @@
     flex-shrink: 0; 
     position:absolute;
 }
+
+.menu1 {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.444px;
+
+    margin: 0;
+    padding: 0;
+
+    position: absolute;
+}
+
+.menu2 {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.444px;
+
+    margin: 0;
+    padding: 0;
+
+    position: absolute;
+}
+
+.menu3 {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.444px;
+
+    margin: 0;
+    padding: 0;
+
+    position: absolute;
+}
+
+.menu4 {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.444px;
+
+    margin: 0;
+    padding: 0;
+
+    position: absolute;
+}
+
+.iconeBusca{
+    margin: 0;
+    padding: 0;
+
+    width: 17.033px;
+    height: 17.033px;
+
+    position: absolute;
+}
+
+.iconeLogin{
+    margin: 0;
+    padding: 0;
+
+    width: 14.194px;
+    height: 14.194px;
+
+    position: absolute;
+}
+
+.iconeCarrinho{
+    margin: 0;
+    padding: 0;
+
+    width: 17.033px;
+    height: 17.033px;
+
+    position: absolute;
+}
+
