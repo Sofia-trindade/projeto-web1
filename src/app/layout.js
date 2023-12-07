@@ -6,6 +6,9 @@ import busca from '../../public/iconsBusca.png'
 import login from '../../public/iconsLogin.png'
 import carrinho from '../../public/iconsCarrinho.png'
 
+
+
+
 export const metadata ={
   title: 'Freebie | Planty |  Plants E-commerce Landing Page Design',
 }
@@ -18,53 +21,19 @@ function Logo ({x, y}){
   )
 }
 
-function Menu1 ({x, y}) {
+function ItemMenu ({children, x, y}){
   return(
-    <p style={{left:x, top:y}} className={styles.menu1}>Plants</p>
+    <p style={{left:x, top:y}} className={styles.itemMenu}>{children}</p>
   );
 }
 
-function Menu2 ({x, y}) {
+function Icones ({imagem, x, y}){
   return(
-    <p style={{left:x, top:y}} className={styles.menu2}>For offices</p>
+    <Image src={imagem} style={{left:x, top:y}} className={styles.icones}/>
+
   );
 }
 
-function Menu3 ({x, y}) {
-  return(
-    <p style={{left:x, top:y}} className={styles.menu3}>Plants care</p>
-  );
-}
-
-function Menu4 ({x, y}) {
-  return(
-    <p style={{left:x, top:y}} className={styles.menu4}>About</p>
-  );
-}
-
-function IconeBusca ({x, y}) {
-  return(
-    <p style={{left:x, top:y}} className={styles.iconeBusca}>
-      <Image src={busca}/>
-    </p>
-  );
-}
-
-function IconeLogin ({x, y}) {
-  return(
-    <p style={{left:x, top:y}} className={styles.iconeLogin}>
-      <Image src={login}/>
-    </p>
-  );
-}
-
-function IconeCarrinho ({x, y}) {
-  return(
-    <p style={{left:x, top:y}} className={styles.iconeCarrinho}>
-      <Image src={carrinho}/>
-    </p>
-  );
-}
 
 export default function RootLayout({ children }) {
   return (
@@ -72,13 +41,16 @@ export default function RootLayout({ children }) {
       <body>
         <header>
           <Logo x={50} y={20.08}/>
-          <Menu1 x={377.57} y={28.29}/>
-          <Menu2 x={440.74} y={28.29}/>
-          <Menu3 x={525.9} y={28.29}/>
-          <Menu4 x={613.91} y={28.29}/>
-          <IconeBusca x={888.51} y={26.26}/>
-          <IconeLogin x={929.03} y={26.26}/>
-          <IconeCarrinho x={969.48} y={26.26}/>
+
+          <ItemMenu x={339.52} y={25.53}>Plants</ItemMenu>
+          <ItemMenu x={396.32} y={25.53}>For offices</ItemMenu>
+          <ItemMenu x={472.9} y={25.53}>Plants care</ItemMenu>
+          <ItemMenu x={552.04} y={25.53}>About</ItemMenu>
+
+          <Icones imagem={busca} x={799.02} y={23.61}/>
+          <Icones imagem={login} x={835.4} y={23.61}/>
+          <Icones imagem={carrinho} x={871.77} y={23.61}/>
+        
         </header>
         <main>
           {children}

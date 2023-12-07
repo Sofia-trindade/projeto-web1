@@ -1,13 +1,67 @@
+
+
+.planta1 {
+
+  margin: 0;
+  padding: 0;
+
+  position: absolute;
+
+}
+
 .titulo{
   font-family: Belleza;
-  font-size: 68.133px;
+  font-size: 61.267px;
   font-style: normal;
   font-weight: 400;
 
   margin: 0;
   padding: 0;
 
-  width: 450px;
-  height: 200px;
+  width: 373px;
+  height: 142px;
   position: absolute;
+}
+
+.botao {
+  color: #FFF;
+
+  text-align: center;
+  font-family: Aeonik;
+  font-size: 9.426px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  margin: 0;
+  padding: 0;
+  position: absolute;
+
+}
+
+.subTitulo {
+  font-family: Aeonik;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+   width: 290px;
+  height: 61px;
+
+  position: absolute;
+}
+
+.frase {
+  font-family: Aeonik;
+font-size: 16px;
+font-style: normal;
+font-weight: 250;
+line-height: normal;
+
+width: 254px;
+height: 19px;
+
+position: absolute;
+
 }
