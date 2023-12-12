@@ -23,19 +23,59 @@
   position: absolute;
 }
 
-.botao {
-  color: #FFF;
+.div{
 
-  text-align: center;
-  font-family: Aeonik;
-  font-size: 9.426px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-
-  margin: 0;
-  padding: 0;
   position: absolute;
+
+  background: #FFF;
+  width: 482.475px;
+  height: 222.092px;
+  flex-shrink: 0;
+}
+
+.p{
+  color: #000;
+  font-family: Aeonik;
+  font-size: 12.764px;
+  font-weight: 400;
+
+  weight: 154px;
+  height: 32px;
+
+  position: absolute;
+}
+
+.p1{
+  
+  font-family: Aeonik;
+  font-size: 22.975px; 
+  font-weight: 900; 
+  position: absolute;
+
+  opacity: 0.5;}
+
+.p2{
+  font-family: Lora;
+  font-size: 22.975px;
+  font-weight: 700;
+  position: absolute;
+
+  opacity: 0.5;
+}
+.botao {
+
+  border-radius: 18.303px;
+  background: #010101;
+  color: #fff;
+  display: flex; 
+  width: 85.518px;
+  padding: 6.864px 13.27px; 
+  justify-content: center;
+  align-items: center;
+  gap: 9.151px; 
+  position: absolute;
+
+  
 
 }
 
