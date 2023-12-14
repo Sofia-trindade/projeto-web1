@@ -23,7 +23,7 @@
   position: absolute;
 }
 
-.div{
+.frame2{
 
   position: absolute;
 
@@ -33,19 +33,19 @@
   flex-shrink: 0;
 }
 
-.p{
+.frame2 .p{
   color: #000;
   font-family: Aeonik;
   font-size: 12.764px;
   font-weight: 400;
 
-  weight: 154px;
+  width: 154px;
   height: 32px;
 
   position: absolute;
 }
 
-.p1{
+.frame2 .p1{
   
   font-family: Aeonik;
   font-size: 22.975px; 
@@ -54,7 +54,7 @@
 
   opacity: 0.5;}
 
-.p2{
+.frame2  .p2{
   font-family: Lora;
   font-size: 22.975px;
   font-weight: 700;
@@ -66,42 +66,103 @@
 
   border-radius: 18.303px;
   background: #010101;
-  color: #fff;
   display: flex; 
   width: 85.518px;
   padding: 6.864px 13.27px; 
   justify-content: center;
   align-items: center;
   gap: 9.151px; 
-  position: absolute;
-
   
 
+  color: #fff;
+  text-align: center;
+  font-family: Aeonik;
+  font-size: 9.426px;
+  font-weight: 500; 
+  
+
+  position: absolute;
+
 }
 
-.subTitulo {
+.textoTipo1{
+
   font-family: Aeonik;
-  font-size: 24px;
+  font-size: 10.211px;
+  font-weight: 250; 
+
+  width: 162PX;
+  height: 12PX;
+
+  position: absolute;
+}
+.textoTipo2{
+
+  color: #000;
+
+  font-family: Lora;
+  font-size: 22.975px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: normal;
 
-   width: 290px;
-  height: 61px;
+  width: 399px;
+  height: 91px;
+
+  /* width: 299px;
+  height: 29px; */
 
   position: absolute;
 }
 
-.frase {
+.textoTipo3{
   font-family: Aeonik;
-font-size: 16px;
-font-style: normal;
-font-weight: 250;
-line-height: normal;
+  font-size: 12.764px;
+  font-weight: 400;
+  text-transform: uppercase; 
 
-width: 254px;
-height: 19px;
+  /* width: 77px;
+  height: 15px; */
+  position: absolute;
+}
 
-position: absolute;
+.iconeExtra{
+  /* display: flex; */
+  width: 19.15px;
+  height: 19.15px;
+  /* justify-content: center;
+  align-items: center;
+  flex-shrink: 0; */
 
+  position: absolute;
+}
+
+.frame27 {
+
+  background: #EDEDED; 
+
+  width: 919px;
+  height: 278.253px; 
+
+  position: absolute;
+}
+
+.palavra1{
+
+  color: #000;
+  font-family: Aeonik;
+  font-size: 12.764px;
+  font-weight: 500;
+  letter-spacing: 1.276px; 
+
+  position: absolute;
+}
+
+
+.iconeProximo {
+  position: absolute;
+}
+
+.planta2 {
+  position: absolute;
 }
