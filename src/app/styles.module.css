@@ -27,5 +27,30 @@
     position: absolute;
 }
 
+.footer{
+
+    background: #F3F3F3;
+    width: 919px;
+    height: 101.47px;
+    position: absolute;
+}
+
+.icone1{
+
+    width: 7.658px;
+    height: 15.317px;
+
+   position: absolute;
+
+}
+
+.icone2{
+
+    width: 15.317px;
+    height: 15.317px;
+
+   position: absolute;
+
+}
 
 

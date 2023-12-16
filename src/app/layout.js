@@ -5,6 +5,9 @@ import logo from  '../../public/logo.png'
 import busca from '../../public/iconsBusca.png'
 import login from '../../public/iconsLogin.png'
 import carrinho from '../../public/iconsCarrinho.png'
+import face from '../../public/facebook.png'
+import twiter from '../../public/twiter.png'
+import instagram from '../../public/instagram.png'
 
 
 
@@ -34,6 +37,14 @@ function Icones ({imagem, x, y}){
   );
 }
 
+function Footer ({children, x, y}){
+  return(
+    <div style={{left:x, top:y}} className={styles.footer}>
+      {children}
+    </div>
+  );
+}
+
 
 export default function RootLayout({ children }) {
   return (
@@ -41,7 +52,7 @@ export default function RootLayout({ children }) {
       <body>
         <header>
           <Logo x={50} y={20.08}/>
-
+          
           <ItemMenu x={339.52} y={25.53}>Plants</ItemMenu>
           <ItemMenu x={396.32} y={25.53}>For offices</ItemMenu>
           <ItemMenu x={472.9} y={25.53}>Plants care</ItemMenu>
@@ -55,6 +66,28 @@ export default function RootLayout({ children }) {
         <main>
           {children}
         </main>
+
+        <footer>
+          
+          <Footer x={0} y={3545.17}>
+            <Logo x={38.29} y={34.46}/>
+
+            <div>
+            <ItemMenu x={350.37} y={47.23}>Help</ItemMenu>
+            <ItemMenu x={409.08} y={47.23}>Contact Us</ItemMenu>
+            <ItemMenu x={496.52} y={47.23}>Privacy & Terms</ItemMenu>
+            </div>
+            
+
+            <div>
+              
+            <Icones imagem={face} x={772.22} y={47.23} className={styles.icone1}/>
+            <Icones imagem={twiter} x={818.17} y={47.23} className={styles.icone2}/>
+            <Icones imagem={instagram} x={871.77} y={47.23} className={styles.icone2}/>
+            </div>
+
+          </Footer>
+        </footer>
       </body>
     </html>
   )

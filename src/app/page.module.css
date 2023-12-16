@@ -147,6 +147,10 @@
   position: absolute;
 }
 
+.frame27 .iconeProximo {
+  position: absolute;
+}
+
 .palavra1{
 
   color: #000;
@@ -159,10 +163,89 @@
 }
 
 
-.iconeProximo {
+
+.planta2 {
   position: absolute;
 }
 
-.planta2 {
+.lista{
+
+  display: flex;
+  width: 234.86px;
+  height: 368.24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+
+  position: absolute;
+
+}
+
+.iconeProximo1 {
+  width: 23.425px;
+  height: 23.425px;
+  position: absolute;
+}
+
+.avaliacao{
+
+  width: 95.091px;
+  height: 15.955px;
+  position: absolute;
+
+}
+
+.palavra2{
+
+  font-family: Aeonik;
+  font-size: 10.211px;
+  font-style: normal;
+  font-weight: 700;
+  
+  position: absolute;
+
+
+}
+
+.palavra3 {
+  font-family: Aeonik;
+  font-size: 8.297px;
+  font-weight: 400;
+
+  position: absolute;
+}
+
+.palavra4{
+  font-family: Lora;
+  font-size: 15.317px;
+  font-weight: 500;
+
+  position: absolute;
+}
+
+.imagens{
+
+  position: absolute;
+}
+
+.frame36{
+
+  position: absolute;
+}
+
+.textoTipo4{
+
+  font-family: Lora;
+  font-size: 30.633px;
+  font-weight: 500;
+
+  width: 451px;
+  height: 80px;
+
+  position: absolute;
+}
+
+.line13{
   position: absolute;
 }
